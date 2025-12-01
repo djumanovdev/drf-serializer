@@ -22,6 +22,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # third party apps
+    'unfold',
+
+    # django default apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
