@@ -23,7 +23,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # third party apps
-    'unfold',
+    'jazzmin',
 
     # django default apps
     'django.contrib.admin',

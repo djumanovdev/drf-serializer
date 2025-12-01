@@ -19,6 +19,7 @@ class Task(models.Model):
     name = models.CharField(max_length=64, unique=True)
     description = models.TextField(blank=True, null=True)
     status = models.BooleanField(default=False)
+    due_date = models.DateTimeField(blank=True, null=True)
     cartegory = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
